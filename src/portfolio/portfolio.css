@@ -1,0 +1,372 @@
+.container {
+    display       : flex;
+    flex-direction: column;
+    background    : #171717;
+    width         : 1350px;
+    height        : 300vh;
+}
+
+.container-navbar {
+    height: 85px;
+
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.dasturchi p {
+    margin-left   : 40px;
+    font-family   : DM Sans;
+    font-size     : 36px;
+    font-weight   : 700;
+    line-height   : 47px;
+    letter-spacing: 0em;
+    color         : white;
+}
+
+.links {
+    display     : flex;
+    gap         : 10px;
+    margin-right: 30px;
+}
+
+.linklar {
+    display        : flex;
+    justify-content: space-around;
+    margin-right   : 10px;
+}
+
+.container-page1 {
+    display: flex;
+    width  : 100%;
+    height : 80vh;
+}
+
+.container-name {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    flex-direction : column;
+    width          : 50%;
+}
+
+.names {
+    font-family   : DM Sans;
+    font-size     : 48px;
+    font-weight   : 700;
+    line-height   : 62px;
+    letter-spacing: 0em;
+    text-align    : left;
+    color         : white;
+}
+
+.name3 {
+    font-family   : DM Sans;
+    font-size     : 18px;
+    font-weight   : 500;
+    line-height   : 23px;
+    letter-spacing: 0em;
+    text-align    : left;
+    color         : #828282;
+}
+
+.buttons {
+    display        : flex;
+    justify-content: start;
+    margin-top     : 20px;
+    width          : 450px;
+}
+
+.btn1 {
+    margin-right: 10px;
+    width       : 143px;
+    height      : 42px;
+    background  : #27AE60;
+    border      : none;
+
+}
+
+.btn2 {
+    width     : 143px;
+    height    : 42px;
+    background: none;
+    border    : 2px solid white;
+    color     : white;
+}
+
+.container-image {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    flex-direction : column;
+    width          : 50%;
+    ;
+}
+
+.zikillohimg {
+    border-radius: 900px;
+    object-fit   : contain !important;
+    width        : 451.2645874023438px;
+    height       : 451.2645874023438px;
+
+}
+
+.aboutP {
+    font-family   : DM Sans;
+    font-size     : 48px;
+    font-weight   : 700;
+    line-height   : 62px;
+    letter-spacing: 0em;
+    text-align    : center;
+    color         : white;
+
+}
+
+.aboutP2 {
+    font-family   : DM Sans;
+    font-size     : 18px;
+    font-weight   : 400;
+    line-height   : 23px;
+    letter-spacing: 0em;
+    text-align    : center;
+    color         : white;
+}
+
+.services {
+    display        : flex;
+    justify-content: space-around;
+    margin-top     : 40px;
+    width          : 100%;
+    height         : 85px;
+}
+
+.service1 {
+    display        : flex;
+    justify-content: center;
+    flex-direction : column;
+}
+
+.service2 {
+    display        : flex;
+    justify-content: center;
+    flex-direction : column;
+}
+
+.service3 {
+    display        : flex;
+    justify-content: center;
+    flex-direction : column;
+}
+
+.service4 {
+    display        : flex;
+    justify-content: center;
+    flex-direction : column;
+}
+
+.cornerimg {
+    margin-left: 70px;
+    width      : 62px;
+    height     : 62px;
+}
+
+.services__p1 {
+    margin-left   : 60px;
+    font-family   : DM Sans;
+    font-size     : 18px;
+    font-weight   : 700;
+    line-height   : 23px;
+    letter-spacing: 0em;
+    text-align    : left;
+    color         : white;
+
+}
+
+.services__p1-1 {
+    margin-left   : 55px;
+    font-family   : DM Sans;
+    font-size     : 18px;
+    font-weight   : 700;
+    line-height   : 23px;
+    letter-spacing: 0em;
+    text-align    : left;
+    color         : white;
+
+}
+
+.services__p1-2 {
+    margin-left   : 70px;
+    font-family   : DM Sans;
+    font-size     : 18px;
+    font-weight   : 700;
+    line-height   : 23px;
+    letter-spacing: 0em;
+    text-align    : left;
+    color         : white;
+
+}
+
+.services__p1-3 {
+    margin-left   : 80px;
+    font-family   : DM Sans;
+    font-size     : 18px;
+    font-weight   : 700;
+    line-height   : 23px;
+    letter-spacing: 0em;
+    text-align    : left;
+    color         : white;
+
+}
+
+.services__p2 {
+    margin-left   : 25px;
+    font-family   : DM Sans;
+    font-size     : 18px;
+    font-weight   : 400;
+    line-height   : 23px;
+    letter-spacing: 0em;
+    text-align    : left;
+    color         : white;
+}
+
+.services__p2-1 {
+    font-family   : DM Sans;
+    font-size     : 18px;
+    font-weight   : 400;
+    line-height   : 23px;
+    letter-spacing: 0em;
+    text-align    : left;
+    color         : white;
+}
+
+.services__p2-2 {
+    margin-left   : 60px;
+    font-family   : DM Sans;
+    font-size     : 18px;
+    font-weight   : 400;
+    line-height   : 23px;
+    letter-spacing: 0em;
+    text-align    : left;
+    color         : white;
+}
+
+.services__p2-3 {
+    margin-left   : 35px;
+    font-family   : DM Sans;
+    font-size     : 18px;
+    font-weight   : 400;
+    line-height   : 23px;
+    letter-spacing: 0em;
+    text-align    : left;
+    color         : white;
+}
+
+.available {
+    display        : flex;
+    align-items    : center;
+    flex-direction : column;
+    justify-content: space-around;
+    width          : 100%;
+    height         : 80vh;
+}
+
+.available p {
+    font-family   : DM Sans;
+    font-size     : 48px;
+    font-weight   : 700;
+    line-height   : 62px;
+    letter-spacing: 0em;
+    text-align    : center;
+    color         : white;
+}
+
+.available button {
+    margin-left  : 40px;
+    width        : 349px;
+    height       : 241px;
+    background   : #212121;
+    border-bottom: 4px;
+    border       : none;
+}
+
+.available .button__p {
+    display        : flex;
+    justify-content: center;
+    font-family    : DM Sans;
+    font-size      : 36px;
+    font-weight    : 500;
+    line-height    : 47px;
+    letter-spacing : 0em;
+    text-align     : left;
+    color          : #535353;
+    margin-top     : 40px;
+    width          : 100px;
+    margin-left    : 80px;
+
+}
+
+.available button:active {
+    border-bottom: 4px solid #27AE60;
+}
+
+.images {
+    margin-left: -220px;
+}
+
+.skills {
+    display       : flex;
+    flex-direction: column;
+    width         : 100%;
+    height        : 50vh;
+    margin-top: 50px;
+}
+
+.skillsP {
+    font-family   : DM Sans;
+    font-size     : 48px;
+    font-weight   : 700;
+    line-height   : 62px;
+    letter-spacing: 0em;
+    text-align    : center;
+    color         : white;
+    margin-bottom: 50px;
+}
+
+.rates {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    margin-left    : 100px;
+    width          : 1168px;
+    height         : 235px;
+    border         : 1px;
+    background     :#212121;
+    color: white;
+    gap  : 80px;
+
+}
+
+.ratesinit {
+    display       : flex;
+    flex-direction: column;
+}
+
+.percent {
+    font-family   : DM Sans;
+    font-size     : 72px;
+    font-weight   : 700;
+    line-height   : 94px;
+    letter-spacing: 0em;
+    text-align    : center;
+    color         : #4F4F4F;
+}
+
+.languages {
+    font-family   : DM Sans;
+    font-size     : 24px;
+    font-weight   : 700;
+    line-height   : 31px;
+    letter-spacing: 0em;
+    text-align    : center;
+    color         : #27AE60;
+}
